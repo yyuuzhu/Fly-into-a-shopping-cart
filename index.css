@@ -1,0 +1,144 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.wrapper{
+	width: 100%;
+	height: 700px;
+}
+.wrapper ul{
+	width: 100%;
+	text-align: center;
+	margin-top: 50px;
+}
+.wrapper .imgBox ul li{
+	display: inline-block;
+	height: 300px;
+	width: 300px;
+	margin-left: 20px;
+}
+.wrapper ul li img{
+	height: 100%;
+	width: 100%;
+}
+.wrapper button{
+	height: 35px;
+	width: 100px;
+	margin-left: 20px;
+	color: #fff;
+	font-weight: bold;
+}
+.wrapper .btn1{
+	background-color: #ed145b;
+}
+.wrapper .btn2{
+	background-color: #f40;
+}
+.rightBox{
+	position: fixed;
+	right: 0;
+	top: 0;
+	height: 100%;
+	width: 40px;
+	background-color: #444851;
+}
+.rightBox .rightBox-ul{
+	margin-top: 100px;
+
+}
+.rightBox .rightBox-ul li{
+	position: relative;
+	margin-top: 10px;
+}
+.rightBox .rightBox-ul li a{
+	display: block;
+	min-height: 40px;
+	width: 40px;
+	text-decoration: none;
+}
+.fir a{
+	background: url('./index.png')0 0 no-repeat;
+}
+.sec a i,
+.fif i {
+	display: block;
+	height: 40px;
+	width: 40px;
+}
+.sec a i{
+	background: url('./index.png')0 -60px no-repeat;
+}
+.fif i{
+	background: url('./index.png')0 -280px no-repeat;
+}
+.sec .con{
+	width: 16px;
+	height: 48px;
+	color: #fff;
+	font-size: 14px;
+	margin: 5px 0 0 10px;
+}
+.sec span,
+.fif span{
+	display: block;
+	height: 21px;
+	width: 21px;
+	border-radius: 100%;
+	color: #fff;
+	line-height: 21px;
+	text-align: center;
+	margin: 15px 0 0 8px;
+}
+.sec span{
+	background-color: #ed145b;
+}
+.fif span{
+	background-color: #f40;
+}
+.thir a{
+	background: url('./index.png')0 -205px no-repeat;
+}
+.four a{
+	background: url('./index.png')0 -240px no-repeat;
+}
+.six a{
+	background: url('./index.png')0 -315px no-repeat;
+}
+.sev a{
+	background: url('./index.png')0 -445px no-repeat;
+}
+.leftBox{
+	height: 35px;
+	width: 100px;
+	background-color: #444851;
+	position: absolute;
+	left: -120px;
+	top: 10px;
+	color: #fff;
+	font-size: 14px;
+	line-height: 35px;
+	text-align: center;
+	display: none;
+}
+.fir-leftBox,
+.sev-leftBox{
+	height: 185px;
+	width: 270px;
+	border: 1px solid #cecece;
+	position: absolute;
+	top: 4px;
+	left: -282px;
+	display: none;
+}
+.fir-leftBox{
+	background: url('./index-1.png')0 0 no-repeat;
+}
+.sev-leftBox{
+	width: 165px;
+	left: -175px;
+	background: url('./index-2.png')0 0 no-repeat;
+}
+.show{
+	display: block;
+}
